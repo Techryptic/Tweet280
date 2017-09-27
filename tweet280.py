@@ -1,13 +1,7 @@
 #!/usr/bin/env python
-import csv
-import urllib2
-import commands
-import subprocess
-import os;
+import urllib2;
+import commands;
 import sys;
-import re;
-import csv;
-import time;
 #Created by:Anthonys.io
 #Twitter.com/Tech
 with open("cookies.txt") as f:
@@ -32,5 +26,5 @@ if 'tweet_html' in output:
     print('\x1b[6;30;42m' + 'Success!' + '\x1b[0m')
     print('\x1b[6;30;42m' + '' + '\x1b[0m')
 else:
-    print "Error" 
+    print "Error"
     print output
